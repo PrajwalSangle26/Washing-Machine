@@ -11,6 +11,9 @@ This project simulates the functioning of a basic washing machine using embedded
 
 ---
 
+## 📷 Pojects Screenshot
+![Power on](https://raw.githubusercontent.com/PrajwalSangle26/Washing-Machine/main/assets/Pic1.png) ![Cloth Types](https://raw.githubusercontent.com/PrajwalSangle26/Washing-Machine/main/assets/Pic3.png) ![Start-Stop](https://raw.githubusercontent.com/PrajwalSangle26/Washing-Machine/main/assets/Pic6.png) ![Finish](https://raw.githubusercontent.com/PrajwalSangle26/Washing-Machine/main/assets/Pic7.png)
+
 ## 📁 Project Structure
 
 You said:
