@@ -1,0 +1,174 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"16
+[v _init_display_controller init_display_controller `(v  1 s 1 init_display_controller ]
+"37
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"49
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+"55
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"10
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"18 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"31
+[v _main main `(v  1 e 1 0 ]
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\timers.c
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+"12 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\washing_machine_function_def.c
+[v _power_on_screen power_on_screen `(v  1 e 1 0 ]
+"33
+[v _washing_program_display washing_program_display `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1816
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2573
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2633
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2780
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2783
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2876
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2879
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2900
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"2903
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"2906
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2909
+[v _TOUTPS0 TOUTPS0 `VEb  1 e 0 @147 ]
+"2912
+[v _TOUTPS1 TOUTPS1 `VEb  1 e 0 @148 ]
+"2915
+[v _TOUTPS2 TOUTPS2 `VEb  1 e 0 @149 ]
+"2918
+[v _TOUTPS3 TOUTPS3 `VEb  1 e 0 @150 ]
+"3014
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"3017
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"15 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\main.c
+[v _operational_mode operational_mode `uc  1 e 1 0 ]
+"31
+[v _main main `(v  1 e 1 0 ]
+{
+"48
+[v main@delay delay `ui  1 a 2 4 ]
+"33
+[v main@key key `uc  1 a 1 6 ]
+"64
+} 0
+"33 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\washing_machine_function_def.c
+[v _washing_program_display washing_program_display `(v  1 e 1 0 ]
+{
+"40
+} 0
+"10 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@mode mode `uc  1 p 1 wreg ]
+[v read_digital_keypad@mode mode `uc  1 p 1 wreg ]
+"12
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"14
+[v read_digital_keypad@mode mode `uc  1 p 1 3 ]
+"33
+} 0
+"12 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\washing_machine_function_def.c
+[v _power_on_screen power_on_screen `(v  1 e 1 0 ]
+{
+"23
+[v power_on_screen@i_132 i `ui  1 a 2 2 ]
+"15
+[v power_on_screen@i i `ui  1 a 2 0 ]
+"29
+} 0
+"49 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\clcd.c
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+{
+[v clcd_putch@data data `DCuc  1 p 1 wreg ]
+[v clcd_putch@data data `DCuc  1 p 1 wreg ]
+[v clcd_putch@addr addr `uc  1 p 1 6 ]
+"51
+[v clcd_putch@data data `DCuc  1 p 1 7 ]
+"53
+} 0
+"55
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@str str `*.24DCuc  1 p 1 6 ]
+[v clcd_print@addr addr `uc  1 p 1 7 ]
+"64
+} 0
+"18 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"29
+} 0
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\timers.c
+[v _init_timer2 init_timer2 `(v  1 e 1 0 ]
+{
+"33
+} 0
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"8
+} 0
+"37 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"47
+} 0
+"16
+[v _init_display_controller init_display_controller `(v  1 s 1 init_display_controller ]
+{
+"35
+} 0
+"4
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@mode mode `uc  1 p 1 2 ]
+"6
+[v clcd_write@byte byte `uc  1 p 1 5 ]
+"14
+} 0
+"4 C:\Users\Prajakta\MPLABXProjects\Washing_machine.X\isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"6
+[v isr@count count `ul  1 s 4 count ]
+"22
+} 0
