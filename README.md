@@ -57,7 +57,7 @@ Washing_machine/ \
 ├── timers.c \
 ├── timers.h \
 ├── washing_machine_function_def.c \
-├── washing_machine_header.h \
+├── washing_machine_header.h 
 
 
 ### 📄 Key Source Files
